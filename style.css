@@ -1,0 +1,81 @@
+.html {
+    background-color: hsl(291, 81%, 6%)
+    font-family: sans-serif;
+}
+
+.page-name {
+    color:cornflowerblue;
+    font-size: 60px;
+    line-height: 100px;
+    margin: 10px;
+}
+
+.course-name {
+    margin: 0;
+    color: hsl(0, saturation, lightness);
+    font-size: 40;
+    font-weight: bold;
+
+}
+
+.course-hours {
+    margin: 0;
+    color: hsl(hue, saturation, lightness);
+    font-size: 16;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+.course-dishes {
+    margin-top: 20;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.dish {
+    margin: 20px 0;
+    padding: 20px;
+    border: 4px solid hsl(hue, saturation, lightness);
+    border-radius: 8px;
+    background-color: azure; 
+}
+
+.dish-name {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    color: hsl(hue, saturation, lightness)
+}
+
+.seperator {
+    margin: 16 px 0;
+    border: 1px solid hsl(hue, saturation, lightness);
+
+}
+.course {
+    background-color: rgb(175, 124, 223);
+    border: 6px solid hsl(0, saturation, lightness);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+.tags {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.tag { 
+    background-color: hsl(301, 37%, 76%);
+    border: 3px solid hsl(298, 87%, 18%);
+    border-radius: 4px;
+    padding: 8px;
+    display: inline-block;
+    font-size: 12px;
+}
